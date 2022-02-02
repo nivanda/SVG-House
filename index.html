@@ -7,15 +7,22 @@
         <svg width="1000" height="1000">
             <defs>
                 <linearGradient id="gradient1"
-                                        x1="0%" y1="0%"
-                                        x2="0%" y2="100%"
-                                        spreadMethod="pad">
-                            <stop offset="0%"   stop-color="#94a8e2" stop-opacity="1"/>
-                            <stop offset="100%" stop-color="#07194f" stop-opacity="1"/>
-                        </linearGradient>
+                                x1="0%" y1="0%"
+                                x2="0%" y2="100%"
+                                spreadMethod="pad">
+                    <stop offset="0%"   stop-color="#94a8e2" stop-opacity="1"/>
+                    <stop offset="100%" stop-color="#07194f" stop-opacity="1"/>
+                </linearGradient>
+                <linearGradient id="gradient2"
+                                x1="0%" y1="0%"
+                                x2="0%" y2="100%"
+                                spreadMethod="pad">
+                    <stop offset="0%"   stop-color="#0e0b52" stop-opacity="1"/>
+                    <stop offset="100%" stop-color="#09e634" stop-opacity="1"/>
+                </linearGradient>
             </defs>
             <rect x="100" y="200" width="200" height="100" style="fill:url(#gradient1);stroke-width:7;stroke:rgb(0,0,0)" />
-            <polygon points="80,200 320,200 200,75" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+            <polygon points="80,200 320,200 200,75" style="fill:url(#gradient2);stroke:purple;stroke-width:5;fill-rule:evenodd;" />
             <rect x="260" y="245" width="30" height="50" style="fill:white;stroke:black;stroke-width:5;fill-rule:evenodd;" />
             <circle cx="265" cy="270" r="3" stroke="black" stroke-width="1" fill="black" />
             <rect x="150" y="245" width="25" height="25" style="fill:gray;stroke-width:5;stroke:black" />
